@@ -7,6 +7,7 @@ for(const logindata of loginTestData)
 {
     test(`Valid Login test ${logindata.username}`,async({page})=>{
 
+        console.log("This is login Test");
         const loginPage=new Loginpage(page);
         await loginPage.openURL(logindata.url);
         await loginPage.verifyLogin(logindata.username,logindata.password);
