@@ -1,0 +1,15 @@
+[{
+    "url" : "https://demo.guru99.com/v3/index.php",
+    "username" : "mngr531957",
+    "password" : "Test@1234",
+    "expectedTitle" : " Guru99 Bank Manager HomePage "
+
+},
+{
+    "url" : "https://demo.guru99.com/v3/index.php",
+    "username" : "mngr532163",
+    "password" : "Test@1234",
+    "expectedTitle" : " Guru99 Bank Manager HomePage "
+
+}
+]
